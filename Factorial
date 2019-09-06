@@ -1,0 +1,19 @@
+// Funcion
+def fact(num):
+    res=1
+    cont=1
+    if (a==0 and a==1):
+        return 1
+    else:
+        result=1
+        for cont in range (11):
+            res=res*cont
+    return res
+    
+    // Principal
+num=int(input("Dame un numero "))
+if(num<11 and num>0):
+    print("entra")
+    print("El factorial es", fact(num))
+else:
+    print("error")
